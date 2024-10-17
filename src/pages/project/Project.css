@@ -1,0 +1,84 @@
+.project-details {
+
+  grid-template-columns: 6fr 1fr;
+  align-items: start;
+  grid-gap: 60px;
+}
+
+
+.project-summary {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 4px;
+}
+.project-summary .due-date {
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: var(--title-color);
+}
+.project-summary .details {
+  margin: 30px 0;
+  color: var(--text-color);
+  line-height: 1.8em;
+  font-size: 0.9em;
+}
+.project-summary h4 {
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+.project-summary .assigned-users {
+  display: flex;
+  margin-top: 20px;
+}
+.project-summary .assigned-users .avatar {
+  margin-right: 10px;
+}
+.project-summary + .btn {
+  margin-top: 20px;
+}
+
+
+.project-comments label {
+  margin-bottom: 0px;
+}
+.project-comments textarea {
+  min-height: 40px;
+  font-size: 1.5em;
+}
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 80%;
+  padding: 30px;
+}
+.comment-container {
+  background-color: #fff;
+  margin: 15px;
+  padding: 15px;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.1);
+  border: solid black 1px;
+}
+.comment-user {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.comment-user h3 {
+  margin: 0;
+
+
+}
+.comment-container p {
+  margin-left: 10px; 
+}
+
+.comment-user img {
+  min-width: 40px;
+}
+.project-comments {
+  margin-bottom: 40px;
+}

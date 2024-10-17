@@ -1,0 +1,46 @@
+.project-list {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+.project-list a {
+  background-color: #fff;
+  padding: 16px;
+
+  border: 2px solid black;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
+  text-decoration: none;
+  color: inherit;
+}
+.project-list h4 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: var(--heading-color);
+}
+.project-list p {
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+.project-list .assigned-to {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.project-list ul {
+  margin: 10px 0;
+  display: flex;
+}
+.project-list li {
+  margin-right: 10px;
+}
+.project-list .avatar {
+  width: 30px;
+  height: 30px;
+}
+.project-list .pic-minature {
+  width: 50%;
+  height: 50%;
+}
